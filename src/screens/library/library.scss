@@ -1,0 +1,47 @@
+.playlist {
+    &-body {
+        // height: 100%;
+    }
+
+    &-card {
+        width: 220px;
+        height: 300px;
+        border-radius: 20px;
+        background: linear-gradient(90deg, rgba(124, 1, 71, 1) 0%, rgba(209, 6, 78, 1) 50%, rgba(166, 0, 87, 1) 100%);
+        margin: 20px;
+        padding: 15px;
+        flex-direction: column;
+        justify-content: space-between;
+        transition: all 0.25s ease;
+
+        &:hover {
+            cursor: pointer;
+            transform: scale(1.02);
+        }
+
+        &-img {
+            width: 100%;
+            border-radius: 20px;
+        }
+
+        &-title {
+            font: {
+                weight: 700;
+                size: 16px;
+            }
+
+            color: #fff;
+            margin: 10px 0;
+        }
+
+        &-subTitle {
+            font: {
+                weight: 500;
+                size: 12px;
+            }
+
+            color: rgb(150, 144, 137);
+            margin: 0;
+        }
+    }
+}

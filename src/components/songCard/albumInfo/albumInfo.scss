@@ -1,0 +1,32 @@
+.album {
+    width: 80%;
+    color: rgb(222, 222, 222);
+    margin-top: 20px;
+
+    p {
+        margin: 8px auto;
+    }
+
+    &-name {
+        font: {
+            size: 20px;
+            weight: bold;
+        }
+    }
+
+    &-info {
+        font: {
+            size: 17px;
+            weight: normal;
+        }
+    }
+
+    &-release {
+        font: {
+            size: 14px;
+            weight: lighter;
+        }
+
+        color: rgb(150, 150, 150);
+    }
+}
